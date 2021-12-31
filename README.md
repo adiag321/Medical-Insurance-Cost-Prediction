@@ -1,10 +1,10 @@
-# <p align = "center"> Medical Insurance Cost Prediction</p>
+<h1><p align = "center"> Medical Insurance Cost Prediction</p></h1>
 <b>Project Overview:</b> <br>
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
 • Built a model to predict Insurance Cost based on the features <br>
 • Evaluated the model using various Performance Metrics like RMSE, R2, Testing Accuracy, Training Accuracy and MAE <br>
-
+<br>
 Data source : https://www.kaggle.com/mirichoi0218/insurance
 
 # Data Definition
@@ -18,7 +18,6 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 7. charges: Individual medical costs billed by health insurance
 
 # Exploratory Data Analysis
-
 • Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese <br>
 ![image](https://user-images.githubusercontent.com/80570935/130601931-826570ec-df1d-4b85-918f-00eb740ed212.png)
 
@@ -55,5 +54,5 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 | RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 |
  
  # Conclusion
-Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 4305.20, RMSE Score 6209.88, & R2 Score 0.77. Linear Regression algorithm is fit based on the train & test accuracy.
- 
+Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 4305.20, RMSE Score 6209.88, & R2 Score 0.77. <br>
+Therefore, Linear Regression algorithm is the best fitted model based on the training and testing accuracy.
