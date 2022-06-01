@@ -21,7 +21,7 @@ Data source : https://www.kaggle.com/mirichoi0218/insurance
 objective index of body weight (kg / m ^ 2) using the ratio of height to weight, ideally 18.5 to 24.9
 4. children: Number of children covered by health insurance / Number of dependents
 5. smoker: Smoking
-6. region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
+6. region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest
 7. charges: Individual medical costs billed by health insurance
 
 # Exploratory Data Analysis
