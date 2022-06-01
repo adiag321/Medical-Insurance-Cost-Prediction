@@ -1,4 +1,11 @@
 <h1><p align = "center"> Medical Insurance Cost Prediction</p></h1>
+
+# Introduction
+Health insurance costs have risen dramatically over the past decade in response to the rising cost of health care services and are determined by a multitude of factors. Let's look at the cost of healthcare for a sample of the population given age, sex, bmi, number of children, smoking habits, and region.
+
+# Purpose
+The purpose of this project is to determine the contributing factors and predict health insurance cost by performing exploratory data analysis and predictive modeling on the Health Insurance dataset. This project makes use of Numpy, Pandas, Sci-kit learn, and Data Visualization libraries.
+
 <b>Project Overview:</b> <br>
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
@@ -44,7 +51,7 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
  D) Find the best algorithm <br>
  E) Tuning Hyperparameter <br>
  
- # Model Evaluation 
+# Model Evaluation 
 | Score | LinearRegression | DecisionTree | RandomForest | Ridge |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | R2 | 0.77 | 0.78 | 0.78 | 0.86 |
@@ -53,6 +60,6 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 | Test Accuracy | 0.77 | 0.78 | 0.86 | 0.77 | 
 | RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 |
  
- # Conclusion
+# Conclusion
 Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 4305.20, RMSE Score 6209.88, & R2 Score 0.77. <br>
 Therefore, Linear Regression algorithm is the best fitted model based on the training and testing accuracy.
